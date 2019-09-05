@@ -4,7 +4,7 @@ import logo from "../../images/iconfinder_Science__Technology_35_2633208.svg";
 export default class Navbar extends Component {
 state = {
     navbarOpen: false,
-    css: "collapse navbar-collapse",
+    css: "collapse navbar-collapse show",
     links: [
     {
         id: 1,
