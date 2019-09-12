@@ -57,3 +57,13 @@ h6 {
   background-size: cover;
   background-attachment: fixed;
 }
+.info
+{
+  padding-top: 100px;
+  padding-bottom: 100p;
+  color: #555;
+}
+.about-content
+{
+  padding-top: 20px;
+}
