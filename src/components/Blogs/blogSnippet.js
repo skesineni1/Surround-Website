@@ -7,8 +7,9 @@ import "./blogSnippet.css";
 const BlogSnippet = ({ date, excerpt, path, tags, summary, title }) => (
   <section className="post-sample">
     <Link
-      aria-label={title}
-      to={path}
+        style={{ textDecoration: 'none' }}
+        aria-label={title}
+        to={path}
     >
       <Container>
         <h1 >{title}</h1>
