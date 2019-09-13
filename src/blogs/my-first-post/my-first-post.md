@@ -1,9 +1,9 @@
 ---
 path: /Blog/my-first-post
-date: 2018-12-01
+date: 1992-12-01
 summary: Post summary
-tags: [my, first, post]
-title: My First Post
+tags: [Dipesh, first, BlogPost]
+title: My First Blog Post
 ---
 
-<h1> This is my first post </h1>
+<h1> <b>This is my first blog post for testing website.</b></h1>
