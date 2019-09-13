@@ -8,21 +8,20 @@ const BlogSnippet = ({ date, excerpt, path, tags, summary, title }) => (
   <section className="post-sample">
     <Link
       aria-label={title}
-      className={`post-sample__link ${tags && "post-sample__link--has-tags"}`}
       to={path}
     >
       <Container>
-        <h1 className="post-sample__title">{title}</h1>
-        <div className="post-sample__date">{date}</div>
+        <h1 >{title}</h1>
+        <div >{date}</div>
 
-        <div className="post-sample__summary">
+        <div >
           {summary ? summary : excerpt}
         </div>
 
         {tags && (
-          <ul className="post-sample__tags">
+          <ul >
             {tags.map(tag => (
-              <li className="post-sample__tag" key={tag}>
+              <li >
                 {tag}
               </li>
             ))}

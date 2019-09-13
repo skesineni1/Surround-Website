@@ -18,7 +18,6 @@ export const Blog = ({ data: { markdownRemark } }) => {
       <PostHeader date={frontmatter.date} title={frontmatter.title} />
       <Container>
         <div
-          className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </Container>
