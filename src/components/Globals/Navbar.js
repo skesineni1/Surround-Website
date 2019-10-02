@@ -23,7 +23,7 @@ state = {
     },
     {
         id: 4,
-        path: "/GitHub",
+        path: "https://github.com/a2i2/surround",
         text: "GitHub"
     }
     ]
@@ -58,9 +58,14 @@ render() {
             {this.state.links.map(link => {
             return (
                 <li key={link.id} className="nav-item">
-                <Link to={link.path} className="nav-link text-capitalize ">
+                {link.id===4 &&
+                    <a href={link.path} target="_blank" className="nav-link text-capitalize ">
                     {link.text}
-                </Link>
+                    </a>}
+                {link.id !=4 &&
+                    <Link to={link.path} className="nav-link text-capitalize ">
+                    {link.text}
+                    </Link>}
                 </li>
             );
             })}
