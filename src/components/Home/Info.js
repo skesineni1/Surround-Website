@@ -15,7 +15,7 @@ Existing model serving solutions focus on serving the model rather than serving 
 Existing serving approaches do not allow for the evolution of a machine learning pipeline without re-engineering the solution i.e. using a cloud API for the first release before training a custom model much later on.
 Code was commonly being commented out to run other branches as experimentation was not a first class citizen in the code being written."
             </i></p>
-            <Link to="/about/">
+            <Link to="/About">
             <button className="btn text-uppercase btn-yellow">
                 About >>
 </button>

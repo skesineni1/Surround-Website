@@ -13,7 +13,7 @@ state = {
     },
     {
         id: 2,
-        path: "/Docs",
+        path: "/",
         text: "Docs"
     },
     {

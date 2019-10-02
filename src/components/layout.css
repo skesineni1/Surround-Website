@@ -16,8 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Courier New", Courier, monospace !important;
-  letter-spacing: 0.5rem !important;
+  font-family: 'Courier New', Courier, monospace !important;
+  letter-spacing: 0.15rem !important;
 }
 .text-yellow {
   color: var(--mainYellow) !important;
@@ -134,13 +134,21 @@ text-align: center;
   background-size: cover;
   background-attachment: fixed;
 }
-.info
-{
-  padding-top: 100px;
-    padding-bottom: 100p;
-    color: #555;
-}
-.about-content
-{
-    padding-top: 20px;
-}
+ .blogText {
+   margin: 40px;
+   margin-top: 80px;
+   justify-content: center;
+ }
+
+
+ .blogText p,.blogText ul  {
+   font-family: 'Trebuchet MS';
+   font-size: 18px;
+ }
+
+ .blogText h1,.blogText h2,.blogText h3,.blogText h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.10rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+ }
