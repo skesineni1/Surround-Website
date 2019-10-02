@@ -7,11 +7,11 @@ const Footer = () => (
         <div class="column is-haf-mobile is-one-quarter-desktop">
             <h6 class="title is-5">Quick links</h6>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
             </ul>
             </div>
             <div class="column is-haf-mobile is-one-quarter-desktop">
